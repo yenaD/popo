@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="포항시립미술관">
+    <meta name="keywords" content="포항시립미술관, 미술관, 시립미술관, 포항미술관">
+    <meta name="author" content="yena">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포항시립미술관</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e52f29747a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header_bg"></div>
+        <header>
+            <div class="h_top">
+                <div class="logo">
+                    <h1>
+                        <a href="#"><img src="img/main_logo.png" alt="포항시립미술관"></a>
+                    </h1>
+                </div>
+                <div class="ht_right">
+                    <form action="">
+                        <input type="text" placeholder="검색어를 입력하세요" title="검색" class="input_text">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <a href="#">통합로그인</a>
+                </div>
+            </div><!-- h_top -->
+            <nav>
+                <div class="nav_bg"></div>
+                <div class="container">
+                    <ul class="gnb">
+                        <li class="underline"><a href="#">전시</a>
+                            <div class="un_bar"></div>
+                            <ul class="sub ">
+                                <li><a href="#">현재전시</a></li>
+                                <li><a href="#">과거전시</a></li>
+                                <li><a href="#">예정전시</a></li>
+                            </ul><!-- //.sub -->
+                        </li>
+                        <li class="underline"><a href="#">교육</a>
+                            <div class="un_bar"></div>
+                            <ul class="sub">
+                                <li><a href="#">어린이/가족</a></li>
+                                <li><a href="#">청소년/성인</a></li>
+                                <li><a href="#">도슨트</a></li>
+                            </ul><!-- //.sub -->
+                        </li>
+                        <li class="underline"><a href="#">소장품</a>
+                            <div class="un_bar"></div>
+                            <ul class="sub">
+                                <li><a href="#">소장품</a></li>
+                                <li><a href="#">작품기증</a></li>
+                                <li><a href="#">도서</a></li>
+                                <li><a href="#">AR 도슨트 투어</a></li>
+                            </ul><!-- //.sub -->
+                        </li>
+                        <li class="underline"><a href="#">스틸아트공방</a>
+                            <div class="un_bar"></div>
+                            <ul class="sub">
+                                <li><a href="#">스틸공방</a></li>
+                            </ul><!-- //.sub -->
+                        </li>
+                        <li class="underline"><a href="#">참여마당</a>
+                            <div class="un_bar"></div>
+                            <ul class="sub">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">문화행사소식</a></li>
+                                <li><a href="#">질문과답변</a></li>
+                                <li><a href="#">장두건미술상</a></li>
+                            </ul><!-- //.sub -->
+                        </li>
+                        <li class="underline"><a href="#">관람안내</a>
+                            <div class="un_bar"></div>
+                            <ul class="sub">
+                                <li><a href="#">관람안내</a></li>
+                                <li><a href="#">오시는길</a></li>
+                                <li><a href="#">단체관람예약</a></li>
+                                <li><a href="#">편의시설</a></li>
+                            </ul><!-- //.sub -->
+                        </li>
+                        <li class="underline"><a href="#">미술관소개</a>
+                            <div class="un_bar"></div>
+                            <ul class="sub">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">정체성/미션</a></li>
+                                <li><a href="#">시설현황</a></li>
+                                <li><a href="#">조직도</a></li>
+                                <li><a href="#">MI소개</a></li>
+                            </ul><!-- //.sub -->
+                        </li>
+                    </ul><!-- //.gnb -->
+                </div><!-- //.container -->
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="swiper mainSwiper">
+                    <div class="main_visual swiper-wrapper">
+                        <div class="swiper-slide slide1">
+                            <img src="img/Main_visual_01.png" alt="">
+                            <div class="float_box">
+                                <ul class="fb_top">
+                                    <li><i class="fa-regular fa-clock"></i>관람 시간</li>
+                                    <li><strong>10:00 ~ 18:00</strong></li>
+                                    <li><span>동절기 11월-3월 | 입장마감 17:30</span></li>
+                                </ul>
+                                <ul class="fb_mid">
+                                    <li>매주 월요일 정기휴관</li>
+                                    <li><span>월요일이 공휴일인 경우 정상 개관 </span></li>
+                                    <li>관람료 무료</li>
+                                    <li><span>(일부 전시 별도 부가 될 수 있음)</span></li>
+                                </ul>
+                                <ul class="fb_bot">
+                                    <li><a href="#"><img src="img/icon_gallery.png" alt="icon">관람 안내</a></li>
+                                    <li><a href="#"><img src="img/icon_location.png" alt="icon">오시는길</a></li>
+                                    <li><a href="#"><img src="img/icon_group.png" alt="icon">단체관람</a></li>
+                                    <li><a href="#"><img src="img/icon_Facilities.png" alt="icon">편의시설</a></li>
+                                </ul>
+                            </div><!-- //float_box -->
+                        </div><!-- //.slide1 -->
+                        <div class="swiper-slide slide2">
+                            <a href="#"><img src="img/Main_visual_02.jpg" alt=""></a>
+                        </div><!-- //.slide2 -->
+                        <div class="swiper-slide slide3">
+                            <img src="img/Main_visual_03.jpg" alt="">
+                            <div class="float_box">
+                                <ul class="fb_top">
+                                    <li><i class="fa-regular fa-clock"></i>관람 시간</li>
+                                    <li><strong>10:00 ~ 18:00</strong></li>
+                                    <li><span>동절기 11월-3월 | 입장마감 17:30</span></li>
+                                </ul>
+                                <ul class="fb_mid">
+                                    <li>매주 월요일 정기휴관</li>
+                                    <li><span>월요일이 공휴일인 경우 정상 개관 </span></li>
+                                    <li>관람료 무료</li>
+                                    <li><span>(일부 전시 별도 부가 될 수 있음)</span></li>
+                                </ul>
+                                <ul class="fb_bot">
+                                    <li><a href="#"><img src="img/icon_gallery.png" alt="icon">관람 안내</a></li>
+                                    <li><a href="#"><img src="img/icon_location.png" alt="icon">오시는길</a></li>
+                                    <li><a href="#"><img src="img/icon_group.png" alt="icon">단체관람</a></li>
+                                    <li><a href="#"><img src="img/icon_Facilities.png" alt="icon">편의시설</a></li>
+                                </ul>
+                            </div><!-- //float_box -->
+                        </div><!-- //.slide3 -->
+                        <div class="swiper-slide slide4">
+                            <a href="#"><img src="img/Main_visual_04.jpg" alt=""></a>
+                        </div><!-- //.slide4 -->
+                    </div><!-- //.main_visual swiper-wrapper -->
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <!-- <button class="pause">정지</button>
+                    <button class="play">시작</button> -->
+                </div>
+
+            </div><!-- //.container -->
+        </main>
+        <div class="contents">
+
+            <section class="current section1">
+                <div class="container">
+                    <div class="lf_bg s01_bg"></div>
+                    <h2>현재전시</h2>
+                    <div class="inner">
+                        <a href="#"><img src="img/current_exh.jpg" alt="디지털 커넥션"></a>
+                        <div class="tit">
+                            <h3>DIGITAL CONNECTION 디지털 커넥션</h3>
+                            <!-- <p>관람료 무료</p> -->
+                            <a href="#">더보기 &gt;</a>
+                        </div>
+                        <div class="txt">
+                            <ul class="txt_lf">
+                                <li><span>전시장소</span> 1, 2, 3, 4 전시실 및 초헌장두건관</li>
+                                <li><span>참여작가</span> 룸톤, 양민하, 스튜디오 엠버스703, 박정선, 최성록, 안가영</li>
+                                <li><span>전시기간</span> 2023-09-26 ~ 2024-01-07</li>
+                                <li><span>관람시간</span> 하절기(4-10월) : 오전10시 - 오후7시</li>
+                                <li><span></span> 동절기(11-3월) : 오전10시 - 오후6시 *월요일 휴관</li>
+                            </ul>
+                            <ul class="txt_rg">
+                                <li>
+                                    디지털 문화의 열풍 속에서 신기술의 향연이 펼쳐지고, 예술가의 세상도 춤을 춘다. 디지털은 형식이자 감성으로 예술가는 조금 더 자유롭고 활동적인
+                                    환경에서 창작하고, 그들의 예술은 시대의 기술감각 위에서 체험을 구체화한다. 《디지털 커넥션》은 이런 흐름에서 룸톤, 양민하, 스튜디오 엠버스703,
+                                    박정선, 최성록, 안가영과 함께 기술감각과 정서구조를 따르는 예술을 선보인...
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- container -->
+            </section>
+            <section class="program section2">
+                <div class="container">
+                    <div class="lf_bg s02_bg"></div>
+                    <div class="prog_tit">
+                        <h2>교육</h2>
+                        <div class="arr_btn">
+                            <i class="fa-solid fa-angle-left swiper-button-prev"></i>
+                            <i class="fa-solid fa-angle-right swiper-button-next"></i>
+                        </div>
+                    </div>
+                    <div class="inner">
+                        <div class="mySwiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <img src="img/pogram01.jpg" alt="">
+                                        </div>
+                                        <div class="tag">
+                                            <span class="apply_ing">접수중</span>
+                                            <span class="grade grade_all">전체</span>
+                                        </div><!-- //.tag -->
+                                        <div class="txt_box">
+                                            <div class="s_tit">
+                                                2023 POMA 아카데미「오늘의 미술과 내일의 미술관」
+                                            </div>
+                                            <p>참가비 무료</p>
+                                            <div class="s_bt">
+                                                <span>교육 기간</span>
+                                                <p>2023. 12. 02 ~ 2023. 12. 16
+                                                    <br>매주 토요일 (14:00~16:00)
+                                                </p>
+                                                <span>신청 기간</span>
+                                                <p>2023. 11. 21 ~ 2023. 12. 16</p>
+                                            </div>
+                                        </div><!-- txt_box -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <img src="img/pogram02.jpg" alt="">
+                                        </div>
+                                        <div class="tag">
+                                            <span class="apply_end">접수마감</span>
+                                            <span class="grade grade_docen">도슨트</span>
+                                        </div><!-- //.tag -->
+                                        <div class="txt_box">
+                                            <div class="s_tit">
+                                                2024년 상반기 전시 도슨트 자원봉사자 전시교육
+                                            </div>
+                                            <p>참가비 문의</p>
+                                            <div class="s_bt">
+                                                <span>교육 기간</span>
+                                                <p>2024. 01 .09 ~ 2024 .01 .29
+                                                </p>
+                                                <span>신청 기간</span>
+                                                <p>2023. 09. 12 ~ 2023. 10. 10</p>
+                                            </div>
+                                        </div><!-- txt_box -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <img src="img/pogram03.png" alt="">
+                                        </div>
+                                        <div class="tag">
+                                            <span class="apply_end">접수마감</span>
+                                            <span class="grade grade_kids">어린이</span>
+                                        </div><!-- //.tag -->
+                                        <div class="txt_box">
+                                            <div class="s_tit">
+                                                전시 연계 미취학 어린이 가족 프로그램 「데굴데굴 우리가족 타임캡슐」
+                                            </div>
+                                            <p>참가비 무료</p>
+                                            <div class="s_bt">
+                                                <span>교육 기간</span>
+                                                <p>2023. 11 .12 ~ 2023. 11. 25
+                                                    <br>매주 주말 오전, 오후 타임제
+                                                </p>
+                                                <span>신청 기간</span>
+                                                <p>2023. 11. 03 ~ 2023. 11. 11</p>
+                                            </div>
+                                        </div><!-- txt_box -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <img src="img/pogram04.jpg" alt="">
+                                        </div>
+                                        <div class="tag">
+                                            <span class="apply_end">접수마감</span>
+                                            <span class="grade grade_limit">나이제한</span>
+                                        </div><!-- //.tag -->
+                                        <div class="txt_box">
+                                            <div class="s_tit">
+                                                포항스틸아트공방 14기 금속공예 정규강좌 추가모집
+                                            </div>
+                                            <p>참가비 무료 (재료비 별도 부담)</p>
+                                            <div class="s_bt">
+                                                <span>교육 기간</span>
+                                                <p>2023. 12. 02 ~ 2023. 12. 16
+                                                    <br>매주 토요일 (14:00~16:00)
+                                                </p>
+                                                <span>신청 기간</span>
+                                                <p>2023. 11. 21 ~ 2023. 12. 16</p>
+                                            </div>
+                                        </div><!-- txt_box -->
+                                    </a>
+                                </div><!-- //.swiper-slide -->
+                            </div><!-- //.swiper-wrapper -->
+                        </div>
+                    </div><!-- //.inner -->
+                </div><!-- container -->
+            </section>
+            <div class="container">
+                <div class="eve_noti">
+                    <section class="event section3">
+                        <div class="lf_bg s03_bg"></div>
+                        <div class="eve_tit">
+                            <h2>문화행사</h2>
+                        </div>
+                        <div class="inner">
+                            <div class="eve_all">
+                                <div class="eve_con eve01 on">
+                                    <a href="#">
+                                        <img src="img/event01.jpg" alt="">
+                                        <ul class="e_txt">
+                                            <li class="tit">제79회 미술관 음악회<br>『MUSEUM & MUSIC』</li>
+                                            <li>일시 : 2023년 11월 30일(목) 오전 11시</li>
+                                            <li>장 소 : 미술관 1층 로비</li>
+                                            <li>대 상 : 포항시민 누구나 | 관람료 : 무료</li>
+                                        </ul>
+                                    </a>
+                                </div>
+                                <div class="eve_con eve02 ">
+                                    <a href="#">
+                                        <img src="img/event02.jpg" alt="">
+                                        <ul class="e_txt">
+                                            <li class="tit">제80회 미술관 음악회<br>『MUSEUM & MUSIC』</li>
+                                            <li>일시 : 2023년 12월 21일(목) 오전 11시</li>
+                                            <li>장 소 : 미술관 1층 로비</li>
+                                            <li>대 상 : 포항시민 누구나 | 관람료 : 무료</li>
+                                        </ul>
+                                    </a>
+                                </div>
+                            </div><!-- //.eve_all -->
+                            <div class="bullet">
+                                <div class="ball1 on"></div>
+                                <div class="ball2"></div>
+                            </div>
+                        </div><!-- //.inner -->
+                    </section>
+                    <section class="notice section4">
+                        <div class="lf_bg s04_bg"></div>
+                        <div class="noti_tit">
+                            <h2>공지사항</h2>
+                            <span>더보기 &gt;</span>
+                        </div>
+                        <div class="inner">
+                            <ul>
+                                <li><a href="#">
+                                        <em><i>2024년 포항시립미술관 학예연구팀 기간제근로자 채용 공고</i></em>
+                                        <span>
+                                            2024년 포항시립미술관 학예연구팀 기간제근로자를 다음과 같이 채용합니다. 관심 있는 분들의 많은 지원 바랍니다. 1. 접수기간 :
+                                            2023. 11. 23.(목) ~ 11. 30.(목) (※ 마감일 14:00시까지 도착...
+                                        </span>
+                                        <span>2023-11-20</span>
+                                    </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">
+                                        <em><i>2023년 포항시립미술관 제6기 신규 도슨트 최종선발자 발표</i></em>
+                                        <span>
+                                            2023년 포항시립미술관 도슨트 자원봉사자 양성 및 선발 과정&gt;에 참여해 주신 모든 분들께 진심으로 감사드립니다.포항시립미술관
+                                            제6기 도슨트 자원봉사자 선발 명단을 아래와 같이 알려드립...
+                                        </span>
+                                        <span>2023-10-11</span>
+                                    </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">
+                                        <em><i>현대 미술기획전 《DIGITAL CONNECTION》 도슨트 전시해설</i></em>
+                                        <span>
+                                            2023 포항시립미술관 현대미술기획전 《DIGITAL CONNECTION》 도슨트 전시해설을 다음과 같이 운영합니다. - 기 간 :
+                                            2023. 10. 14.(토) ~ 2024. 1. 7.(일) - 시 간 : 평일 11시, 15시 주말...
+                                        </span>
+                                        <span>2023-09-25</span>
+                                    </a></li>
+                            </ul>
+                        </div><!-- //.inner -->
+                    </section>
+                </div><!-- //.eve_noti -->
+            </div><!-- container -->
+        </div><!-- //.contents-->
+
+        <div class="bt_con">
+            <div class="container">
+                <div class="direct">
+                    <div class="di_left">
+                        <a href="#" class="about">
+                            <img src="img/sub_visual01.jpg" alt="">
+                            <p>포항시립미술관 소개<span>&gt;</span></p>
+                        </a>
+                    </div>
+                    <div class="di_right">
+                        <a href="#" class="collection">
+                            <img src="img/sub_visual02.jpg" alt="">
+                            <p>소장품/도서<span>&gt;</span></p>
+                        </a>
+                        <a href="#" class="docent">
+                            <img src="img/sub_visual03.jpg" alt="">
+                            <p>AR도슨트투어<span>&gt;</span></p>
+                        </a>
+                    </div><!-- //.di_right -->
+                </div><!-- //.direct -->
+                <div class="link">
+                    <ul class="steel_art link1">
+                        <li><a href="#">
+                                <img src="img/direct_still.jpg" alt="">
+                            </a></li>
+                    </ul>
+                    <ul class="pohang link2">
+                        <li><a href="#">
+                                <img src="img/direct_pohang.jpg" alt="">
+                            </a></li>
+                    </ul>
+                    <ul class="sns link3">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i>페이스북</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i>인스타그램</a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i>유튜브</a></li>
+                    </ul>
+                </div><!-- //.link -->
+            </div><!-- //.container -->
+            <footer>
+                <div class="container">
+                    <img src="img/footer_logo.png" alt="포항시립미술관">
+                    <div class="f_txt">
+                        <ul class="f_menu">
+                            <li class="fir"><a href="#">개인정보처리 방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                        </ul>
+                        <ul class="info">
+                            <li class="fir float">포항시립미술관</li>
+                            <li class="float">37600 경상북도 포항시 북구 환호공원길 10</li>
+                            <li class="float">TEL 054-270-4700</li>
+                            <li class="float">FAX 054-252-0257</li>
+                            <li class="fir clear float">4-10월 오전 10시 ~ 오후 7시까지</li>
+                            <li class="float">11-3월 오전 10시 ~ 오후 6시까지</li>
+                            <li class="float">매주 월요일 휴관</li>
+                        </ul>
+                        <div class="copy">
+                            copyright(c) 2012 POMA all right reserved
+                        </div>
+                    </div><!-- //.f_txt -->
+                </div>
+            </footer>
+        </div><!-- //.bt_con -->
+    </div><!-- //.wrap -->
+</body>
+
+</html>
